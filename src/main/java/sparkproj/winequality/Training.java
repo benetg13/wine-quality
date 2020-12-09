@@ -104,6 +104,8 @@ public class Training
         {
   			e.printStackTrace();
   		}
+        
+        spark.stop();
 
 	}
 

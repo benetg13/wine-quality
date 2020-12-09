@@ -102,6 +102,9 @@ public class Predict
          
         double accuracy = evaluator.evaluate(predictions);
         System.out.println("Accuracy = " + accuracy);
+        
+        spark.stop();
+        
 	}
 
 }
